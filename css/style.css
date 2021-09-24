@@ -82,7 +82,33 @@ p {
 }
 
 #header {
-  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  /* flex-shrink: 0; */
   background-color: #333333;
-  color: #ffff;
+  /* color: #ffff; */
+  box-sizing: border-box /* #responsive */
+}
+
+#fort {
+  /* cursor: pointer; */
+  order: 2;
+  margin-left: auto;
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+}
+
+#exit-button {
+  order: 1;
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  /* cursor: pointer; */
+  text-decoration: none;
+  color: #f0f4fb;
 }
