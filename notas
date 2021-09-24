@@ -1,0 +1,19 @@
+TODO:
+- Login (css + js)
+- Home page:
+  • Header: 
+    1. Ver este tutorial https://www.youtube.com/watch?v=PwWHL3RyQgk
+    2. Acomodar el contenido existente
+
+  • Responsive cards:
+    1. Revisar este tutorial https://www.youtube.com/watch?v=StnlVOm3ZZg
+    2. Este es el codigo del tutorial de arriba https://codepen.io/skcals/pen/eYpEvda?editors=1100
+  • Footer:
+    - Darle mas grosor
+
+!paginas utiles:
+- Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#basics-and-terminology
+- Footer: https://css-tricks.com/couple-takes-sticky-footer/
+- Flexbox explicado con manzanitas: https://platzi.com/blog/flexbox-explicado-con-manzanitas/?gclid=Cj0KCQjw1ouKBhC5ARIsAHXNMI9S16StfqR3mZ1SfD4QaFkfgBzrXXMc1VYlX2ci_zHtnL3Nw6eYFTAaAu6eEALw_wcB&gclsrc=aw.ds
+- Formularios: https://developer.mozilla.org/es/docs/Learn/Forms/Form_validation
+- Musiquita piola: https://soundcloud.com/stephanjolk
