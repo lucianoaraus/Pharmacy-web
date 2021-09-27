@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Login</title>
   </head>
   <body>
-    <div>
-      <p>User</p>
-      <input type="userarea" placeholder="Enter your username">
-      <br>
-      <br>
-      <p>Password</p>
-      <input type="password" placeholder="Enter your password">
-      <br>
-      <br>
-      <p>Forget your password?</p>
-      <br>
-      <br>
-      <input type="submit" value="Sign In">
+    <div class="wrapper">
+      <!-- lado izq -->
+      <div class="login-content">
+        <div class="login-content-inputs">
+          <span>User</span>
+          <input type="userarea" placeholder="Enter your username" />
+        </div>
+        <div class="login-content-inputs">
+          <span>Password</span>
+          <input type="password" placeholder="Enter your password" />
+        </div>
+        <span>Forget your password?</span>
+        <input type="submit" value="Sign In" />
+      </div>
+      <!-- lado der -->
+      <div class="img-content">
+        <img src="img/prov-logo.jpg" id="prov-logo-img" />
+      </div>
     </div>
-    <!-- <div id="right-section">
-      <img src="" id="">
-    </div>
-     -->
-    <script src="script.js"></script>
 
+    <script src="script.js"></script>
   </body>
 </html>

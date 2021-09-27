@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat:wght@300", sans-serif;
-  background: #f0f4fb;
+  background: red /* #f0f4fb */;
 }
 
 #content {
@@ -114,4 +114,21 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: #fff;
+}
+
+/* Login */
+.login-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 530px;
+  background-color: seagreen;
+  order: 1;
+}
+
+#prov-logo-img {
+  display: flex;
+  justify-content: flex-end;
+  width: 910px;
+  order: 2;
 }
