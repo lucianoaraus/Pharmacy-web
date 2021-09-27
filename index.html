@@ -10,32 +10,29 @@
   <body>
     <div class="wrapper">
       <!-- lado izq -->
-      <div class="login-content">
+      <form class="login-content" id="form">
         <div class="login-content-inputs">
           <span>Usuario</span>
-          <input
-            type="userarea"
-            placeholder="Ingresa tu DNI"
-            id="input-user-name"
-          />
+          <input type="userarea" placeholder="ingresa tu DNI" id="userName" />
         </div>
         <div class="login-content-inputs">
           <span>Contraseña</span>
           <input
             type="password"
-            placeholder="Ingresa tu Contraseña"
-            id="input-user-pass"
+            placeholder="ingresa tu contraseña"
+            id="userPass"
           />
         </div>
         <span class="login-content-inputs">¿Olvidaste tu contraseña?</span>
         <button type="submit" id="sign-in-button">INGRESAR</button>
-      </div>
+      </form>
+
       <!-- lado der -->
       <div class="img-content">
         <img src="img/prov-logo.jpg" id="prov-logo-img" />
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

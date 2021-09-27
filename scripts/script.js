@@ -1,29 +1,33 @@
-var userName = document.getElementById("#input-user-name");
-var userPass = document.getElementById("#input-user-pass");
-var signInButton = document.getElementById("sign-in-button");
+const userName = document.getElementById("userName");
+const userPass = document.getElementById("userPass");
+const signInButton = document.getElementById("sign-in-button");
+const exitInButton = document.getElementById("exit-button");
 
-var userValidated = function () {
-  if (userName.type == int) {
+function userValidated() {
+  if (typeof userName.value === "number") {
     return true;
   } else {
     alert("ingrese su numero de documento");
   }
-};
+}
 
-var passValidated = function () {
+function passValidated() {
   if (userPass.value.lenght >= 4) {
     return true;
   } else {
     alert("ingrese al menos 4 caracteres");
   }
-};
+}
 
-var ingresar = function () {
-  if (userValidated && passValidated) {
+signInButton.addEventListener("click", function () {
+  if (userValidated() && passValidated()) {
     window.location.replace("../home.html");
   } else {
-    alert("ingresa una contraseña y usuario validos");
+    alert("ingresa una contraseña y usuario valido");
+    event.preventDefault();
   }
-};
+});
 
-signInButton.addEventListener("click", ingresar);
+exitInButton.addEventListener("click", function () {
+  window.location.replace("../index.html");
+});
